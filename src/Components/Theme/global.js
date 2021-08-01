@@ -16,10 +16,10 @@ export const GlobalStyles = createGlobalStyle`
     border: solid 1px ${({ theme }) => theme.toggleBorder};
     cursor:pointer;
   }
-  a,.MainTxt {
+  .MainTxt,.dropdown>.nav-link {
     color: ${({ theme }) => theme.text};
   }
-  header{
+  header,.dropdown-menu{
     background: ${({ theme }) => theme.navBar};
   }
   .formRow,.tCard{

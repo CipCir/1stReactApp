@@ -7,7 +7,16 @@ function Layout(props) {
     <>
       <NavBar />
       <main className={classes.main}>{props.children}</main>
-      <footer>See source code </footer>
+      <footer>
+        <a
+          href="https://github.com/CipCir/1stReactApp"
+          target="_blank"
+          rel="noreferrer"
+          className={classes.footerLink}
+        >
+          See source code
+        </a>{" "}
+      </footer>
     </>
   );
 }

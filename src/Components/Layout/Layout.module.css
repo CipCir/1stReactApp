@@ -13,3 +13,7 @@ footer {
   text-align: center;
   padding: 10px;
 }
+.footerLink,
+.footerLink:hover {
+  color: white;
+}

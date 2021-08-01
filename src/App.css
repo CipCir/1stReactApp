@@ -2,3 +2,17 @@
   background: #035ebb;
   border-radius: 5px;
 }
+.dropdown > .nav-link {
+  display: none;
+}
+a:hover {
+  color: white;
+}
+@media only screen and (max-width: 860px) {
+  nav ul {
+    display: none !important;
+  }
+  .dropdown > .nav-link {
+    display: block;
+  }
+}

@@ -4,7 +4,7 @@ import classes from "./NavBar.module.css";
 import { selectUserEmail } from "../../store/user";
 import { useSelector } from "react-redux";
 import { FaUserCircle } from "react-icons/fa";
-import { OverlayTrigger, Tooltip, Button } from "react-bootstrap";
+import { OverlayTrigger, Tooltip, Button, NavDropdown } from "react-bootstrap";
 
 import { auth } from "../../firebase";
 
@@ -52,6 +52,43 @@ const NavBar = () => {
             </>
           )}
         </ul>
+        <NavDropdown title="Go to" id="nav-dropdown">
+          <NavDropdown.Item eventKey="4.0">
+            <div>
+              <NavLink to="/" activeClassName={classes.active} exact>
+                Home page
+              </NavLink>
+            </div>
+          </NavDropdown.Item>
+          {userEmail && (
+            <>
+              <NavDropdown.Item eventKey="4.1">
+                <div>
+                  <NavLink
+                    to="/smallComp/FormValid"
+                    activeClassName={classes.active}
+                  >
+                    Form validation
+                  </NavLink>
+                </div>
+              </NavDropdown.Item>
+              <NavDropdown.Item eventKey="4.2">
+                <div>
+                  <NavLink to="/themeSwitcher" activeClassName={classes.active}>
+                    Theme switcher
+                  </NavLink>
+                </div>
+              </NavDropdown.Item>
+              <NavDropdown.Item eventKey="4.3">
+                <div>
+                  <NavLink to="/teamTasks" activeClassName={classes.active}>
+                    Team tasks
+                  </NavLink>
+                </div>
+              </NavDropdown.Item>
+            </>
+          )}
+        </NavDropdown>
       </nav>
       {userEmail && (
         <div>
