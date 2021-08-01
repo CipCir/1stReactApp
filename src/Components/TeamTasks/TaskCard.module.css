@@ -1,0 +1,47 @@
+.card {
+  padding: 5px;
+  padding-left: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+  box-shadow: 0 1px 2px 0 rgb(9 30 66 / 25%);
+  position: relative;
+}
+.cardTitle {
+  font-size: larger;
+}
+.cardFooter {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #d3d6d8;
+  margin-top: 5px;
+}
+.statusBar {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  bottom: 5px;
+  width: 5px;
+  border-radius: 5px;
+}
+.Bck {
+  background: #84918f;
+}
+.Dev {
+  background: #0e8a7e;
+}
+.Tst {
+  background: #20a1dc;
+}
+.Done {
+  background: #dfe071;
+}
+
+.actionBtn {
+  cursor: pointer;
+}
+.movePrev {
+  color: #c75f5f;
+}
+.moveNext {
+  color: #0e6e82;
+}

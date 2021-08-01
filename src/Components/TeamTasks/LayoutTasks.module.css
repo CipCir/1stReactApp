@@ -1,0 +1,25 @@
+.mainContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.columnContainer {
+  width: 23%;
+  padding: 5px;
+  background: #d7dce0;
+  margin: 5px;
+  border-radius: 1px;
+}
+
+/*#dev {
+  background: lightgreen;
+} */
+
+.columnHeader {
+  text-align: center;
+  color: grey;
+}
+@media only screen and (max-width: 600px) {
+  .columnContainer {
+    width: 100%;
+  }
+}

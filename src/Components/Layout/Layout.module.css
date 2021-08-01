@@ -1,0 +1,15 @@
+.main {
+  margin: 3rem auto;
+  width: 90%;
+  max-width: 40rem;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #213446;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}

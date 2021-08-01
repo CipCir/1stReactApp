@@ -1,0 +1,30 @@
+.hasError {
+  color: red !important;
+}
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.inputRow {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 5px;
+  background: whitesmoke;
+  padding: 5px;
+}
+.btn {
+  background: #599ef5;
+  border-radius: 5px;
+  padding: 5px;
+  display: inline-block;
+  cursor: pointer;
+  width: 50%;
+  text-align: center;
+}
+@media only screen and (max-width: 900px) {
+  .inputRow {
+    width: 90%;
+  }
+}

@@ -1,0 +1,10 @@
+.MainTxt {
+  margin: 5px 0;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.MainInfo {
+  margin-right: 5px;
+  color: #e0aa08;
+  font-size: larger;
+}
