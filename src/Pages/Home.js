@@ -7,9 +7,7 @@ function Home() {
       Functionalities:
       <ul>
         <li>React Router</li>
-        <li>
-          Theme switcher with styled-components --Todo move in app and store
-        </li>
+        <li>Theme switcher with styled-components</li>
         <li>Google firebase authentication</li>
         <li>Google firebase realtime database</li>
         <li>Redux</li>
